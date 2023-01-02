@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BDCardPage">
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="62dp"
+        android:paddingLeft="8dp"
+
+        android:id="@+id/backb"
+        android:src="@drawable/ic_back"/>
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="62dp"
+        android:paddingRight="8dp"
+        android:layout_alignParentEnd="true"
+
+        android:id="@+id/saveb"
+        android:src="@drawable/ic_save"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="535dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bd_background"
+        android:gravity="center"
+        android:paddingBottom="320dp">
+
+
+        <TextView
+            android:id="@+id/bdtext"
+            android:layout_width="428dp"
+            android:layout_height="223dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Happy Birthday Someone"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="90"
+            android:textAlignment="center"
+            android:textColor="@color/bdcolor"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
