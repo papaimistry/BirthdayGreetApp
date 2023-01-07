@@ -22,3 +22,6 @@
 
   🦄We hope the Birthday Greet app helps you stay connected with your loved ones and never forget a special day. Thanks for using our app!
 
+# Screenshot of my app
+<p float="left">
+<img src="https://user-images.githubusercontent.com/103406706/211143240-19c00c6d-f852-44f6-b454-087648b66d96.jpg" width="200" height="400" />                                                  <img src="https://user-images.githubusercontent.com/103406706/211143205-82f9248d-c1f5-4e41-a09e-013b4af274e8.jpg" width="200" height="400" /></p>
